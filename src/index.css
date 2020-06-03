@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.semaforo {
+    width: 100px;
+    height: 280px;
+    background-color: black;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.semaforo .red-light {
+    width: 80px;
+    height: 80px;
+    background-color: #c70707;
+    border-radius: 100%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.semaforo .yellow-light {
+    width: 80px;
+    height: 80px;
+    background-color: #a1a10a;
+    border-radius: 100%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.semaforo .green-light {
+    width: 80px;
+    height: 80px;
+    background-color: #07bd07;
+    border-radius: 100%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.semaforo .red-light-active {
+    width: 80px;
+    height: 80px;
+    background-color: #ff0000;
+    border-radius: 100%;
+    margin: 5px;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 20px 8px #ff0000;
+    box-shadow: 0 0 20px 8px #ff0000;
+}
